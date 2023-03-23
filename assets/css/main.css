@@ -1994,7 +1994,8 @@ input, select, textarea {
 			button.primary:focus,
 			.button.primary:hover,
 			.button.primary:focus {
-				background-color: #bf596a;
+				background-color: #fff;
+        color: #00bd8e !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2002,7 +2003,9 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #a54051;
+				background-color: #00bd8e;
+        color: #fff !important;
+
 			}
 
 /* Form */
@@ -3607,7 +3610,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 .timeline > section {
-				border-color: #00bd8e;
+				border-color: #bbb;
 			}
 
 				.wrapper.style2 .timeline > section:before {
